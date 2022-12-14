@@ -60,7 +60,6 @@
 </style>
 
 <script>
-import Swiper from "./components/Swiper.vue";
 export default {
   data() {
     return {
@@ -77,10 +76,6 @@ export default {
         { tab: "9호선", content: "서울특별시 강서구에서 강동구까지 운행 중인 서울 지하철의 한 노선이다. 노선색은 금색이며, 색의 뜻은 힘이다.", img: "/images/9.png" },
       ],
       name: "box1",
-
-      components: {
-        Swiper,
-      },
     };
   },
 };
