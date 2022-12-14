@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h2 class="title2">FAQ</h2>
     <v-app id="inspire">
       <!-- 이 안에서 작업 -->
       <v-expansion-panels class="box">
@@ -28,9 +29,30 @@
   </div>
 </template>
 <style>
-.box {
-  margin-top: 100px;
+.v-application--wrap {
+  min-height: 60vh;
 }
+.theme--light.v-application {
+  padding: 0 10%;
+}
+.title2 {
+  font-size: 2em;
+  margin: 3% 0;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0 24px 16px;
+  flex: 1 1 auto;
+  max-width: 100%;
+  height: 70px;
+  line-height: 4em;
+}
+
+.v-application--is-ltr .v-expansion-panel-header {
+  background-color: #44b259;
+  color: #fff;
+  margin: 5px 0;
+}
+
 .answer {
   text-align: left;
 }

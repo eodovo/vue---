@@ -3,7 +3,7 @@
     <h2 class="title">서울시 지하철호선별 역별 승하차 인원 정보</h2>
     <div v-show="message">{{ msgtext }}</div>
     <div class="box">
-      <table class="content">
+      <table class="tableContent">
         <caption class="hidden">
           승하차 인원정보
         </caption>
@@ -37,23 +37,27 @@
   font-size: 2rem;
   margin: 5% 2%;
 }
-.content thead tr {
+.tableContent {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.tableContent thead tr {
   line-height: 2em;
 }
-.content thead th {
+.tableContent thead th {
   border-top: 2px solid #333;
   font-size: 20px;
   padding: 10px;
   border-bottom: 1px solid #333;
 }
-.content table {
+.tableContent table {
   width: 100%;
 }
-.content tr th {
+.tableContent tr th {
   margin-right: 5%;
 }
 
-.content tbody {
+.tableContent tbody {
   line-height: 2em;
   font-size: 18px;
 }

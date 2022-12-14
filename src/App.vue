@@ -4,7 +4,6 @@
     <HeaderArea plogo="서울시 지하철 승하차 정보" />
     <MainVisual />
     <router-view></router-view>
-
     <FooterArea />
   </div>
 </template>

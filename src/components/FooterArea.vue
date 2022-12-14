@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
     <p class="copy">서울시 지하철 승하차 정보</p>
     <hr />
     <div class="info">
@@ -84,8 +84,7 @@ footer hr {
 footer table {
   color: #fff;
 }
-footer {
-  margin-top: 100px;
+.footer {
   background: #44b259;
   height: 300px;
   border-radius: 60px 60px 0 0;
