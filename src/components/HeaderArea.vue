@@ -1,13 +1,13 @@
 <template>
   <header>
     <!-- <router-view></router-view> -->
-    <router-link to="/" class="logoImage">
+    <router-link to="/vue" class="logoImage">
       <h1 class="logo">{{ plogo }}</h1>
     </router-link>
     <nav>
-      <router-link class="link" to="/main">메인 페이지</router-link>
-      <router-link class="link" to="/sub1">승하차 인원정보</router-link>
-      <router-link class="link" to="/sub2">FAQ</router-link>
+      <router-link class="link" to="/vue/main">메인 페이지</router-link>
+      <router-link class="link" to="/vue/sub1">승하차 인원정보</router-link>
+      <router-link class="link" to="/vue/sub2">FAQ</router-link>
     </nav>
   </header>
 </template>

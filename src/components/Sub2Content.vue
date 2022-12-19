@@ -43,8 +43,8 @@
   padding: 0 24px 16px;
   flex: 1 1 auto;
   max-width: 100%;
-  height: 70px;
-  line-height: 4em;
+  letter-spacing: -1px;
+  line-height: 2em;
 }
 
 .v-application--is-ltr .v-expansion-panel-header {
