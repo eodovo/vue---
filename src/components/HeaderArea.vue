@@ -1,10 +1,11 @@
 <template>
   <header>
     <!-- <router-view></router-view> -->
-    <router-link to="/vue" class="logoImage">
+    <router-link to="/vue/" class="logoImage">
       <h1 class="logo">{{ plogo }}</h1>
     </router-link>
     <nav>
+      <h2 class="hidden">네비게이션</h2>
       <router-link class="link" to="/vue/main">메인 페이지</router-link>
       <router-link class="link" to="/vue/sub1">승하차 인원정보</router-link>
       <router-link class="link" to="/vue/sub2">FAQ</router-link>
@@ -13,6 +14,15 @@
 </template>
 
 <style>
+.hidden {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  left: -1000%;
+  width: 1px;
+  height: 1px;
+  color: #fff;
+}
 header {
   height: 100px;
 }

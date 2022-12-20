@@ -67,11 +67,11 @@ label {
 .v-text-field > .v-input__control > .v-input__slot:after {
   bottom: -1px;
   content: "";
-  left: 0;
+  left: 50%;
   position: absolute;
   transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
-  width: 15%;
-  margin-left: 810px;
+  width: 40%;
+  margin-left: -20%;
 }
 .theme--light.v-input input,
 .theme--light.v-input textarea {
